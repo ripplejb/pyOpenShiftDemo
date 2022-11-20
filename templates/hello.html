@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello From OpenShift</title>
+</head>
+<body>
+<input type="button" onclick="location.href='/'" value="Return to the previous page...">
+{% if name %}
+    <h1>Hello {{ name }}</h1>
+{% else %}
+    <h1>Hello World!</h1>
+{% endif %}
+</body>
+</html>
